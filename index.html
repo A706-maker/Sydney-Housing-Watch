@@ -22,8 +22,30 @@
     </header>
     <main>
         <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to the Sydney Housing Watch website, Analyzing the consequences of the rising property prices in our local communities across Sydney.</p>
+            <h2>Sydney housing crisis: Understanding the problem</h2>
+            <div style="text align: center; margin; 2rem0;"> 
+                <p style="font-size: 1.2rem; color: #555;">
+                    Sydney's housing affordability has been skyrocketing, becoming increasingly unaffordable for Australians. This website explores the consequences this has socially and economically, the crisis itself, and potential solutions.
+                </p>
+                <button class="btn btn-primary" onclick="document.getElementbyId('statistics').scrollIntoView();">
+                    View Key Statistics
+                </button>
+            </div>
+
+            <div id="statistics" class="stats-grid">
+                <div class="stat-box">
+                    <div class="number">1.76M</div> 
+                    <div class="label">Median Sydney House Price (2026)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">97%</div>
+                    <div class="label">House Price Growth Over The Past 10Years</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">$760</div>
+                    <div class="label">Weekly Median Rent</div>
+                </div>
+            </div>
         </section>
         <section id="social-consequences">
             <h2>Social Consequences</h2>
